@@ -1,0 +1,25 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title class="ion-text-center logo" size="large"><img src="../../assets/logo.png"></ion-title>
+    <ion-buttons slot="end">
+      <ion-fab-button class="notification-button">
+        <ion-icon name="notifications" class="notification-icon"></ion-icon>
+        <ion-badge class="icon-badge" color="secondary">1</ion-badge>
+      </ion-fab-button>
+    </ion-buttons>
+    
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+ 
+
+  <app-profile-card ></app-profile-card>
+
+  <app-horizontal-list [data]="personalsData"></app-horizontal-list>
+  <app-horizontal-list [data]="programsData"></app-horizontal-list>
+  <app-horizontal-list [data]="classesData"></app-horizontal-list>
+</ion-content>

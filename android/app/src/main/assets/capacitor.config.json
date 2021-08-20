@@ -1,0 +1,6 @@
+{
+	"appId": "com.samuel.usinaplay",
+	"appName": "usinaplay",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

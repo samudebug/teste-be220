@@ -1,0 +1,13 @@
+<div class="horizontal-list">
+  <h3 class="list-title">{{data.title}}</h3>
+  <ion-slides [options]="{ slidesPerView: 'auto', zoom: false, grabCursor: true }">
+    <ion-slide *ngFor="let card of data.cards" style="width: 300px; height: 250px;">
+      <ion-card class="content-card">
+        <img class="card-img" [src]="card.imageUrl">
+        <ion-card-header>
+          <ion-card-title class="card-title">{{card.title}}</ion-card-title>
+        </ion-card-header>
+      </ion-card>
+    </ion-slide>
+  </ion-slides>
+</div>

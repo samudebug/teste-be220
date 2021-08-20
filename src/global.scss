@@ -24,3 +24,13 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+
+:host {
+    background: #090909;
+    --background: #090909 !important;
+}
+
+.background-content {
+    --background: #090909;
+}

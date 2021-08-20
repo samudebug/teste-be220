@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">usinaplay</string>
+    <string name="title_activity_main">usinaplay</string>
+    <string name="package_name">com.samuel.usinaplay</string>
+    <string name="custom_url_scheme">com.samuel.usinaplay</string>
+</resources>
